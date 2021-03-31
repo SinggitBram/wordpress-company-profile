@@ -1,0 +1,1350 @@
+2021-03-30T10:36:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(573, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T10:38:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(574, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T10:40:11+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(575, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T10:41:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(576, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T10:44:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(577, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:01:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(578, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:02:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(579, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:03:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(580, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:03:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(581, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T11:06:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(582, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:07:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(583, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:08:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(584, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T11:09:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(585, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:09:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(586, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T11:10:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(587, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:12:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(588, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T11:13:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(589, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T12:42:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(590, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T12:42:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(591, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T12:54:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(592, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T12:58:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(593, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T13:46:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(594, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T13:49:11+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(595, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T13:49:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(596, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T13:50:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(597, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T13:51:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(598, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T13:55:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(599, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T13:57:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(600, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T14:04:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(601, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T14:19:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(602, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T14:20:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(603, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T14:20:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(604, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T14:22:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(605, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T14:27:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(606, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T14:56:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(607, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T19:37:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(608, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T19:40:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(609, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T19:40:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(610, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T19:41:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(611, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T19:57:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(612, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T19:59:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(613, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:00:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(614, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:08:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(615, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:09:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(616, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T20:10:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(617, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:14:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(618, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:15:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(619, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T20:25:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(620, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:27:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(621, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:28:13+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(622, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:33:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(623, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:34:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(625, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T20:37:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(626, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:38:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(627, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:39:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(628, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:40:24+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(629, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:41:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(630, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:42:38+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(631, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:44:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(632, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:44:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(633, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T20:46:13+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(634, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:58:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(635, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T20:58:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(636, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:01:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(637, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:01:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(638, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:02:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(639, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:02:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(640, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:03:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(641, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:04:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(642, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:05:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(643, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:07:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(644, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:08:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(645, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:09:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(646, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:10:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(647, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:12:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(648, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:14:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(649, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:15:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(650, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:17:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(651, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:18:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(652, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:19:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(653, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
+2021-03-30T21:19:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(654, 'WP Cron')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown
+
+2021-03-30T21:20:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(655, 'Async Request')
+#5 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/company-profile/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/lib/WP_Async_Request.php(156): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/company-profile/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/company-profile/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/company-profile/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown
+
